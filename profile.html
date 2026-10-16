@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Portal | Profile</title>
+    <style>
+        :root { --primary: #FF9933; --secondary: #138808; --dark: #000080; --light: #f9f9f9; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: var(--light); color: #333; }
+        header { background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav { display: flex; justify-content: center; padding: 1rem; }
+        nav ul { list-style: none; display: flex; gap: 2rem; margin: 0; padding: 0; }
+        nav a { text-decoration: none; color: #555; font-weight: 600; }
+        nav a:hover, nav a.active { color: var(--primary); }
+        main { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+        .profile-container { display: flex; gap: 2rem; background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); flex-wrap: wrap; }
+        .profile-container img { max-width: 100%; height: auto; border-radius: 6px; flex: 1 1 350px; object-fit: cover; }
+        .profile-text { flex: 2 1 400px; }
+        footer { text-align: center; padding: 2rem; background: #333; color: #fff; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+                <li><a href="gene_info.html">General Information</a></li>
+                <li><a href="state_territory.html">States & UTs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile-container">
+            <img src="culture.jpg" alt="Indian Culture" width="400" height="400">
+            <div class="profile-text">
+                <h1>Culture & Geography</h1>
+                <p>Indian culture is one of the world's oldest and most diverse, spanning over 4,500 years and characterized by a "unity in diversity" with rich traditions in religion, art, cuisine, and language. It is a blend of various cultures influenced by a long history, featuring widespread familial respect, festivals, and distinct regional customs.</p>
+                <p>India, the world's seventh-largest country (3.28 million sq. km), is a distinct subcontinent in South Asia, bordered by the Himalayas to the north and surrounded by the Indian Ocean, Arabian Sea, and Bay of Bengal. Its geography features diverse terrain including, mountainous regions, the vast Indo-Gangetic plains, the arid Thar Desert, and the ancient Deccan Plateau.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; India. By Vedh.</p>
+    </footer>
+</body>
+</html>

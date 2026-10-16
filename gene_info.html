@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Portal | General Information</title>
+    <style>
+        :root { --primary: #FF9933; --secondary: #138808; --dark: #000080; --light: #f9f9f9; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: var(--light); color: #333; }
+        header { background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav { display: flex; justify-content: center; padding: 1rem; }
+        nav ul { list-style: none; display: flex; gap: 2rem; margin: 0; padding: 0; }
+        nav a { text-decoration: none; color: #555; font-weight: 600; }
+        nav a:hover, nav a.active { color: var(--primary); }
+        main { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+        @media (max-width: 768px) { main { grid-template-columns: 1fr; } }
+        .leaders-section, .symbols-section { background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .leader-card { text-align: center; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid #eee; }
+        .leader-card:last-child { border-bottom: none; }
+        .leader-card img { width: 100%; max-width: 250px; height: auto; border-radius: 8px; margin: 1rem 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .leader-card a { display: inline-block; background: var(--dark); color: white; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; font-size: 0.9rem; transition: background 0.2s; }
+        .leader-card a:hover { background: #000050; }
+        .symbol-item { margin-bottom: 2rem; }
+        .symbol-item h3 { color: var(--secondary); margin-bottom: 0.5rem; }
+        .more-link { display: block; text-align: center; grid-column: 1 / -1; background: #FF9933; color: white; padding: 1rem; text-decoration: none; font-weight: bold; border-radius: 6px; transition: opacity 0.2s; }
+        .more-link:hover { opacity: 0.9; }
+footer { text-align: center; padding: 2rem; background: #333; color: #fff; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="gene_info.html" class="active">General Information</a></li>
+                <li><a href="state_territory.html">States & UTs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="leaders-section">
+            <h2>National Leadership</h2>
+            <div class="leader-card">
+                <h3>President</h3>
+                <p><strong>Smt. Droupadi Murmu</strong></p>
+                <img src="dm.jpg" alt="President of India">
+                <br><a href="https://presidentofindia.nic.in/">More About the President</a>
+            </div>
+            <div class="leader-card">
+                <h3>Vice President</h3>
+                <p><strong>Shri C. P. Radhakrishnan</strong></p>
+                <img src="vp.jpg" alt="Vice President of India">
+                <br><a href="https://vicepresidentofindia.nic.in/">More About the Vice President</a>
+            </div>
+            <div class="leader-card">
+                <h3>Prime Minister</h3>
+                <p><strong>Shri Narendra Modi</strong></p>
+                <img src="pm.jpg" alt="Prime Minister of India">
+                <br><a href="https://pmindia.gov.in">More About the Prime Minister</a>
+            </div>
+        </section>
+
+        <section class="symbols-section">
+            <h2>National Identities & Symbols</h2>
+            <div class="symbol-item">
+                <h3>National Flag</h3>
+                <p>The National Flag of India, or Tiranga, is a horizontal tricolor of deep saffron (kesari) at the top, white in the middle, and dark green at the bottom in equal proportions. A navy blue 24-spoke wheel, the Ashoka Chakra, is centered on the white band. It was adopted on July 22, 1947.</p>
+            </div>
+            <div class="symbol-item">
+                <h3>National Anthem</h3>
+                <p>"Jana Gana Mana" is the national anthem of India, composed by Nobel laureate Rabindranath Tagore in Bengali. It was officially adopted by the Constituent Assembly on January 24, 1950. The full version takes approximately 52 seconds to perform and signifies India's unity, diversity, and sovereignty.</p>
+            </div>
+            <div class="symbol-item">
+                <h3>National Song</h3>
+                <p>The national song of India is "Vande Mataram," composed in Sanskrit by Bankim Chandra Chattopadhyay. It was officially adopted by the Constituent Assembly of India on January 24, 1950, and holds equal status with the National Anthem, "Jana Gana Mana," having inspired the nation's freedom struggle.</p>
+            </div>
+            <div class="symbol-item">
+                <h3>National Animal</h3>
+                <p>The national animal of India is the Bengal Tiger (Panthera tigris tigris), adopted in 1972 to symbolize India's grace, strength, agility, and power. Known for its thick yellow coat and dark stripes, the tiger replaced the lion as the national animal due to its widespread presence across the country.</p>
+            </div>
+            <div class="symbol-item">
+                <h3>National Bird</h3>
+                <p>The national bird of India is the Indian Peacock (Pavo cristatus), designated in 1963 due to its widespread presence across the country, cultural significance, and rich representation in Indian art and mythology. It is a large, colorful bird, with the male displaying vibrant blue plumage and a long, fan-like tail.</p>
+            </div>
+            <div class="symbol-item">
+                <h3>National Plants</h3>
+                <p>The national tree of India is the Banyan tree, symbolizing immortality and unity due to its vast, spreading roots. Other official national botanical symbols include the Lotus as the national flower and the Mango as the national fruit.</p>
+            </div>
+        </section>
+
+        <a href="https://knowindia.india.gov.in/national-identity-elements/"><strong>Discover Even More About INDIA!</strong></a>
+    </main>
+    <footer>
+        <p>Copyright &copy; India. By Vedh.</p>
+    </footer>
+</body>
+</html>
