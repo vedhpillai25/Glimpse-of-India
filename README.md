@@ -1,0 +1,1 @@
+India, officially the Republic of India, is a country of South Asia. It is the 7th largest country by area; the most populous country; and the most populous democracy. This website is built to understand india
